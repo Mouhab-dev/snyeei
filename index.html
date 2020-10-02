@@ -1,0 +1,126 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home Services
+{% endblock %}
+
+
+{% block nav %}
+
+<ul class="navbar-nav mr-auto">
+  <li class="nav-item active">
+      <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="#">Services</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Contact</a>
+</li>
+</ul>
+
+
+
+<form class="form-inline my-2 my-lg-0" action="/login">
+  <button class="btn btn-secondary my-2 my-sm-0" type="submit" formaction="/register" style="margin-right: 10px;">Register</button>
+  <button class="btn btn-success my-2 my-sm-0" type="submit" style="margin-right: 100px;">Login</button>
+  </form>
+{% endblock %}
+
+
+{% block main %}
+  <!-- Header -->
+
+  <header class="shadow-lg p-5 mb-5 bg rounded">
+  <!-- <header class="bg py-5 mb-5"> -->
+    <div class="jumbotron panel-transparent container p-5">
+      <h1 class="display-3" style="font-family: 'Trebuchet MS'; color: whitesmoke;">Snyeei</h1>
+      <h5 class="text_heading"> Is a one place for providing home services the aim of this platform is to connect workers with their clients supervising each operation granting a safe environment for both sides,
+         We are offering highly skills workers that can do what you ask for at a fair price.</h5>
+      <hr class="my-4">
+        <h4 class="text_heading">Our platform rates all the registered workers maintaing the best quality standars that you can trust.</h4>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
+    </div>
+  
+  </header>
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-8 mb-5">
+        <h2>What We Do</h2>
+        <hr>
+        <p><strong>As a Worker:</strong> We provide you with the best job offers you can have, surrounding you a with safe work place with no much hassle.</p>
+        <p><strong>As a Client:</strong> We present you to the best skilled and well qualified workers around egypt with ratings and skills in any type of field you will need,
+           also providing you with a safe environment to get what you are looking for.</p>
+        <a class="btn btn-primary btn-lg" href="/register">Register With Us Now &raquo;</a>
+      </div>
+      <div class="col-md-4 mb-5">
+        <h2>Contact Us</h2>
+        <hr>
+        <address>
+          <strong>Address:</strong>
+          <br>3481 Melrose Place
+          <br>Beverly Hills, CA 90210
+          <br>
+        </address>
+        <address>
+          <abbr title="Phone">Tel:</abbr>
+          (123) 456-7890
+          <br>
+          <abbr title="Email">E-mail:</abbr>
+          <a href="mailto:#">name@example.com</a>
+        </address>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://placehold.it/300x200" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://placehold.it/300x200" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://placehold.it/300x200" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+</div>
+  <!-- /.container -->
+{% endblock %}
