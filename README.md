@@ -31,7 +31,7 @@ The website is an implementation for a company that offers a home services with 
 
 ## Bugs and Issues
 
-Have a bug or an issue with the website? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-business-frontpage/issues) here on GitHub.
+Have a bug or an issue with the website? [Open a new issue](https://github.com/Mouhab-dev/snyeei/issues) here on GitHub.
 
 ## About
 
