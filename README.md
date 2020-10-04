@@ -12,7 +12,7 @@ Snyeei is an arabic word used in egypt meaning worker in english.
 
 [![Snyeei Website Preview](https://i.imgur.com/E3lMEah.png)](https://mouhabsnyeei.pythonanywhere.com/)
 
-**[View Live Preview](https://mouhabsnyeei.pythonanywhere.com/)**
+**[Visit The Website](https://mouhabsnyeei.pythonanywhere.com/)**
 
 ## Description
 
